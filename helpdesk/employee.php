@@ -14,8 +14,8 @@ $_SESSION['msg'] = '';
             $this->db = new mysqli(DB_SERVER, DB_USER, DB_PWD, DB_DATABASE); 
             //Error Handling 
             if(mysqli_connect_errno()) {
-				echo "Error: Could not connect to database.";
-			    exit();
+		echo "Error: Could not connect to database.";
+		exit();
             }
         }
         //Get Connection 
