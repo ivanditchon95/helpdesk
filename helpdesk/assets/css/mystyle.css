@@ -1,0 +1,256 @@
+body {
+    width: 100%;
+    margin: auto;
+}
+table {
+    border: 1px solid #e3e4e5;
+}
+h1 {
+    margin-top: 20px;
+}
+th,
+td {
+    padding: 0;
+}
+.fixed-container {
+    width: 960px;
+    margin: 0 auto;
+}
+.header {
+    background: #272626;
+    width: 100%;
+    position: fixed;
+}
+.logo {
+    float: left;
+    padding: 10px 0px;
+}
+.logo a {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-family: Raleway;
+}
+.nav {
+    float: right;
+}
+.nav li {
+    list-style: none;
+    color: #f1f1f1;
+    padding-top: 30px;
+    font-family: raleway;
+}
+.nav a {
+    text-decoration: none;
+}
+.content {
+   padding-top: 120px;
+   text-align: center;
+}
+.u-pull-right a{
+    text-decoration: none;
+}
+.container a{
+    text-decoration: none;
+}
+.issues {
+    text-align: center;
+    max-width: 400px;
+}
+.statusPending {
+    max-width: 500px; 
+    background-color: #f9e018;
+    font-weight: bold;
+    width: 10%;
+}
+.statusApproved {
+    max-width: 500px; 
+    background-color: #0b7bb7;
+    font-weight: bold;
+    width: 10%;
+}
+.statusOngoing {
+    max-width: 500px; 
+    background-color: #07c14b;
+    font-weight: bold;
+    width: 10%;
+}
+.statusSolved {
+    max-width: 500px; 
+    background-color: #30f24d;
+    font-weight: 900;
+    width: 10%;
+}
+.severityMinor {
+    max-width: 500px; 
+    background-color: #4444fd; 
+    font-weight: 700;
+    width: 10%;
+}
+.severityMajor {
+    max-width: 500px; 
+    background-color: #31ffb3; 
+    font-weight: 750;
+    width: 12%;
+}
+.severityCritical {
+    max-width: 500px; 
+    background-color: #f70909; 
+    font-weight: 800;
+    width: 12%;
+}
+.fbPending {
+    width: 8%;
+}
+.fbApproved {
+    width: 8%;
+}
+.fbOngoing {
+    width: 8%;
+}
+.fbSolved {
+    width: 8%;
+}
+.departmentCCS {
+    font-weight: bold;
+    text-align: center;
+    background-color: #a50b0b;
+    width: 10%;
+}
+.departmentCBA {
+    font-weight: bold;
+    text-align: center;
+    background-color: #ffff00;
+    width: 10%;
+}
+.departmentCHS {
+    font-weight: bold;
+    text-align: center;
+    background-color: #ffffff;
+    width: 10%;
+}
+.departmentCEN {
+    font-weight: bold;
+    text-align: center;
+    width: 10%;
+    background-color: #f41313;
+}
+.departmentCED {
+    font-weight: bold;
+    text-align: center;
+    width: 10%;
+    background-color: #0bbc43;
+}
+.departmentCAS {
+    font-weight: bold;
+    text-align: center;
+    width: 10%;
+    background-color: #0e2fd1;
+}
+.dateSub1 {
+    width: 25%;
+}
+.dateSub2 {
+    width: 25%;
+}
+.feedback {
+    text-align: center;
+}
+.fbButton{
+    margin-bottom: 12px;
+    float: left;
+}
+#active {
+    background-color: #040c60;
+}
+.addconcern {
+    margin-bottom: 10px;
+    float: left;
+    padding: 5px 15px;
+    background-color: #0fa701;
+    color: #ffffff;
+}
+.addconcern:hover {
+    background-color: #0f8604;
+    color: #ffffff;
+}
+.deleteAllconcern {
+    margin-bottom: 10px;
+    float: left;
+    padding: 5px 15px;
+    margin-left: 4px;
+    background-color: #ec0505;
+    color: #ffffff;
+}
+.deleteAllconcern:hover {
+    color: #ffffff;
+    background-color: #d30303;
+}
+.updateConcern {
+    margin-bottom: 10px;
+    float: left;
+    padding: 5px 15px;
+    margin-left: 4px;
+    background-color: #dfb704;
+    color: #ffffff;
+}
+.updateConcern:hover {
+    color: #ffffff;
+    background-color: #bd9b03;
+}
+.admin_pencil {
+    color: #FFC300;
+    font-size: 25px;
+}
+.admin_pencil:hover {
+    color: #A3A2A2;
+}
+.admin_trash {
+    color: #F0240B;
+    font-size: 25px;
+}
+.admin_trash:hover {
+    color: #A3A2A2;
+}
+.employeeId{
+    text-align: center;
+    width: 3%;
+}
+.name {
+    width: 11%;
+    background-color: #0af2ff;
+}
+.mname {
+    width: 12%;
+    background-color: #0af2ff;
+}
+.email {
+    width: 15%;
+    background-color: #0af2ff;
+}
+.searchEmp {
+    width: 30%;
+    margin-top: 8px;
+    margin-right: 3px;
+    border-radius: 4px;
+    border: 1px solid rgb(209, 205, 205);
+    padding: 7px;
+    background-image:url('http://localhost/helpdesk/assets/images/search2.png');
+ 	background-position: 3px 0.5px;
+  	background-repeat: no-repeat;
+  	background-size: 12%;
+  	padding-left: 35px;
+       
+}
+.searchBtn {
+    border-radius: 4px;
+    padding: 8px 15px;
+    background-color: #c5583c;
+    color: rgb(252, 252, 252);
+    border: none;
+}
+.searchBtn:hover {
+    background-color: #91351e;
+}
+
+
