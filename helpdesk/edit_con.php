@@ -14,7 +14,7 @@ if(isset($_POST['delete'])){
     @$box = $_POST['checkbox'];
     $adm_obj->adminDelete($box);
 }
-/** When logout is clicked */
+// When logout is clicked 
 if(isset($_GET['l'])){
     $obj->Logout();
 }
